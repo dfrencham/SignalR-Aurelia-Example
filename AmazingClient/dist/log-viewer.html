@@ -1,0 +1,22 @@
+<template>
+  <section class="au-animate">
+    <h2>${heading}</h2>
+    
+    <div class="flextable margin-base">
+      <label for="fn" class="flexitem">Filter</label>
+      <input type="text" value.bind="filterText" class="form-control flexitem-fill" id="fn" placeholder="search string">
+    </div>
+
+    <div id="filterGrid" role="grid">
+      <div show.bind="(filteredLogEvents.length === 0)">No log records available</div>
+      <div repeat.for="row of filteredLogEvents" class="flextable">
+        <div ref="elRow" class="cell flexitem">${row.datetime}</div>
+        <div class="cell flexitem  ${(row.type === 'error') ? 'cell-error' : ''}">${row.type}</div>
+        <div class="cell flexitem">${row.id}</div>
+        <div class="cell flexitem-wide">${row.desc}</div>
+      </div>
+    </div>
+
+    Count: <div ref="elGridCount">${filteredLogEvents.length}</div>
+  </section>
+</template>
