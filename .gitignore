@@ -154,6 +154,7 @@ $RECYCLE.BIN/
 
 # VS 2015
 .vs/
+*.sln.ide/
 
 # JS Packages
 jspm_packages/
