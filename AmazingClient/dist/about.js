@@ -18,4 +18,4 @@ System.register(['aurelia-framework'], function (_export) {
     }
   };
 });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFib3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztvQkFFYSxLQUFLOzs7Ozs7dUNBRlYsWUFBWTs7O0FBRVAsV0FBSyxZQUFMLEtBQUs7OEJBQUwsS0FBSzs7O3VCQUFMLEtBQUsiLCJmaWxlIjoiYWJvdXQuanMiLCJzb3VyY2VSb290IjoiLi4vc3JjLyJ9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFib3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztvQkFFYSxLQUFLOzs7Ozs7dUNBRlYsWUFBWTs7O0FBRVAsV0FBSyxZQUFMLEtBQUs7OEJBQUwsS0FBSyIsImZpbGUiOiJhYm91dC5qcyIsInNvdXJjZVJvb3QiOiIuLi9zcmMvIn0=

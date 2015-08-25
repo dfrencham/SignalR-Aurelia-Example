@@ -7,7 +7,7 @@ System.register(['aurelia-framework'], function (_export) {
 
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-  function _defineDecoratedPropertyDescriptor(target, key, descriptors) { var _descriptor = descriptors[key]; if (!_descriptor) return; var descriptor = {}; for (var _key in _descriptor) descriptor[_key] = _descriptor[_key]; descriptor.value = descriptor.initializer.call(target); Object.defineProperty(target, key, descriptor); }
+  function _defineDecoratedPropertyDescriptor(target, key, descriptors) { var _descriptor = descriptors[key]; if (!_descriptor) return; var descriptor = {}; for (var _key in _descriptor) descriptor[_key] = _descriptor[_key]; descriptor.value = descriptor.initializer ? descriptor.initializer.call(target) : undefined; Object.defineProperty(target, key, descriptor); }
 
   return {
     setters: [function (_aureliaFramework) {
@@ -26,7 +26,7 @@ System.register(['aurelia-framework'], function (_export) {
         _createDecoratedClass(NavBar, [{
           key: 'router',
           decorators: [bindable],
-          initializer: function () {
+          initializer: function initializer() {
             return null;
           },
           enumerable: true
@@ -39,4 +39,4 @@ System.register(['aurelia-framework'], function (_export) {
     }
   };
 });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm5hdi1iYXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O2dCQUVhLE1BQU07Ozs7Ozs7Ozs7bUNBRlgsUUFBUTs7O0FBRUgsWUFBTTs7O2lCQUFOLE1BQU07Z0NBQU4sTUFBTTs7Ozs7OEJBQU4sTUFBTTs7dUJBQ2hCLFFBQVE7O21CQUFVLElBQUk7Ozs7O2VBRFosTUFBTTs7O3dCQUFOLE1BQU0iLCJmaWxlIjoibmF2LWJhci5qcyIsInNvdXJjZVJvb3QiOiIuLi9zcmMvIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm5hdi1iYXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O2dCQUVhLE1BQU07Ozs7Ozs7Ozs7bUNBRlgsUUFBUTs7O0FBRUgsWUFBTTs7O2lCQUFOLE1BQU07Z0NBQU4sTUFBTTs7Ozs7OEJBQU4sTUFBTTs7dUJBQ2hCLFFBQVE7O21CQUFVLElBQUk7Ozs7O2VBRFosTUFBTSIsImZpbGUiOiJuYXYtYmFyLmpzIiwic291cmNlUm9vdCI6Ii4uL3NyYy8ifQ==
