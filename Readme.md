@@ -1,5 +1,7 @@
 # SignalR-Aurelia-Example #
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dfrencham/SignalR-Aurelia-Example.svg)](https://greenkeeper.io/)
+
 This is an example of a SignalR backend with a Single Page App (SPA) front end, using the Aurelia framework.
 
 ## Dependencies ##
